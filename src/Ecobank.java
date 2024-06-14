@@ -13,7 +13,7 @@ public class Ecobank implements Transacctions{
 
     @Override
     public void criarConta(String titularConta) {
-        String numeroConta = "A01" + numeroContaContador++;
+        String numeroConta = "35169876" + numeroContaContador++;
         conta.put(numeroConta, 0.0);
         System.out.println("Conta criada para: " + titularConta + " com o numero de conta: " + numeroConta);
     }
